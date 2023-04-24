@@ -1,5 +1,9 @@
 def power(x,y):
-    v = x
-    for i in range(y):
-        v = v * x
+    """Power function
+    Args
+    x (num): numerical object
+    y (num): numerical object
+    """
+
+    v = x ** y
     return(v)
